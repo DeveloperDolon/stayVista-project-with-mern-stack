@@ -1,0 +1,24 @@
+
+
+/* Define the styles for the container that holds the scrollable content */
+#scroll-style {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+  
+  /* Define the styles for the scroll bar track */
+  #scroll-style::-webkit-scrollbar {
+    height: 7px;
+  }
+  
+  /* Define the styles for the scroll bar thumb (the draggable part) */
+  #scroll-style::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set the background color of the thumb */
+    border-radius: 5px; /* Add rounded corners to the thumb */
+  }
+  
+  /* Define the styles for the scroll bar track when hovered over */
+  #scroll-style::-webkit-scrollbar-thumb:hover {
+    background-color: #dd1616; /* Change the background color on hover */
+  }
+  
